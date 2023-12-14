@@ -1,0 +1,48 @@
+.container{
+    resize: horizontal;
+height: 100vh;
+width: 100%;
+background-image: url('https://media.istockphoto.com/id/1341408852/video/colored-smoke-on-a-dark-background-blue-and-red-light-with-smoke.jpg?s=640x640&k=20&c=v2DQUY8IVbli_6FH_9KAs6YWRXlDdYiBJHfp7JFh7NY=');
+background-repeat: none;
+background-size: cover;
+box-sizing: border-box;
+padding:10%;
+display: grid;
+grid-template-columns: repeat(10,1fr);
+grid-template-rows: repeat(10,1fr);
+
+}
+
+.gridelement{
+      
+      border: 1px solid #ccc;
+      text-align: center;
+      background:linear-gradient(to right,#010f12 ,#58bfd6);
+    
+} 
+
+#buttonn{
+
+    background:linear-gradient(to left,#fa0217,#4d4142) ;
+   
+    border-style: none;
+    border-radius: 5px;
+    color: azure;
+    font-weight: bold;
+    font-size: medium;
+    
+    cursor:move;
+
+
+    overflow: auto;
+    
+    resize:both;
+    min-height: 100%;
+    min-width:100%;
+    max-width: 50vw;
+
+    
+}
+
+
+
